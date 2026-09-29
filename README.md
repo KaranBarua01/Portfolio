@@ -4,9 +4,19 @@ Public portfolio for **Karan Barua**, focused on GTM systems, automation, data o
 
 ## Profile
 
-I design operational systems that turn manual business workflows into structured, auditable software. My work sits between operations and engineering: workflow design, data quality, automation, APIs, SQL-backed systems, research intelligence, and internal tools.
+I solve messy operational problems by turning ambiguity into rules, data structures, workflows, and working systems. My work sits between operations and engineering: workflow design, data quality, automation, APIs, SQL-backed systems, research intelligence, and internal tools.
 
 Current role: **Associate Team Lead — Centre of Excellence, InsideJob**
+
+## How I think and work
+
+- **Systems thinking** — I map the whole workflow, including dependencies, state changes, bottlenecks, failure modes, and downstream effects.
+- **Problem decomposition** — I break large or unclear problems into smaller checkpoints that can be understood and tested independently.
+- **Constraint-first reasoning** — I design around the actual limits: budgets, permissions, data gaps, platform restrictions, processing caps, deadlines, and risk.
+- **Pattern recognition** — I look for repeated exceptions, duplicate work, recurring data issues, and hidden decision rules that can become reusable logic.
+- **Fast iteration with safeguards** — I prefer short build-test-adjust loops, but with validation, backups, gates, and rollback thinking.
+- **Business-to-technical translation** — I move from operational questions to process rules, schemas, SQL, APIs, automations, QA checks, and user-facing workflows.
+- **Persistence under ambiguity** — I am comfortable refining the solution as new evidence and constraints appear rather than waiting for a perfect specification.
 
 ## Selected work
 
@@ -34,6 +44,10 @@ An internal/private automation system for Slack-driven workflows, data cleaning,
 - SOP and process design
 - GTM / Revenue Operations workflows
 - Research intelligence systems
+
+## Problem-solving capabilities
+
+Systems thinking · Problem decomposition · Root-cause analysis · Constraint mapping · Data-flow reasoning · Failure-mode analysis · Process redesign · Operational debugging · Pattern recognition · Incremental system design
 
 ## Portfolio site
 
