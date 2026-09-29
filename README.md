@@ -1,65 +1,67 @@
 # Karan Barua — Portfolio
 
-Public portfolio for **Karan Barua**, focused on GTM systems, automation, data operations, and applied product engineering.
+Public portfolio for **Karan Barua**, centered on **multidisciplinary problem solving** across research, strategy, systems, data, product, and execution.
 
-## Profile
-
-I solve messy operational problems by turning ambiguity into rules, data structures, workflows, and working systems. My work sits between operations and engineering: workflow design, data quality, automation, APIs, SQL-backed systems, research intelligence, and internal tools.
+The portfolio is intentionally not organized around one job label. Its purpose is to show a repeatable pattern: start with an ambiguous business problem, understand the surrounding context, separate evidence from assumption, model the hidden rules and constraints, then carry the solution into a process, data structure, automation, or internal tool.
 
 Current role: **Associate Team Lead — Centre of Excellence, InsideJob**
 
-## How I think and work
+## How I work
 
-- **Systems thinking** — I map the whole workflow, including dependencies, state changes, bottlenecks, failure modes, and downstream effects.
-- **Problem decomposition** — I break large or unclear problems into smaller checkpoints that can be understood and tested independently.
-- **Constraint-first reasoning** — I design around the actual limits: budgets, permissions, data gaps, platform restrictions, processing caps, deadlines, and risk.
-- **Pattern recognition** — I look for repeated exceptions, duplicate work, recurring data issues, and hidden decision rules that can become reusable logic.
-- **Fast iteration with safeguards** — I prefer short build-test-adjust loops, but with validation, backups, gates, and rollback thinking.
-- **Business-to-technical translation** — I move from operational questions to process rules, schemas, SQL, APIs, automations, QA checks, and user-facing workflows.
-- **Persistence under ambiguity** — I am comfortable refining the solution as new evidence and constraints appear rather than waiting for a perfect specification.
+- **Problem reframing** — challenge the surface task when solving it literally would leave the underlying failure untouched.
+- **Research decomposition** — turn broad questions into evidence categories, hypotheses, exclusions, and repeatable research paths.
+- **Commercial reasoning** — connect capabilities, markets, sourcing context, timing, and evidence to plausible business demand.
+- **Systems modeling** — map identities, states, dependencies, sources of truth, failure modes, and downstream effects.
+- **Data reasoning** — define ownership, precedence, deduplication, history, and the smallest unit that actually needs processing.
+- **Product thinking** — ask what information or action will help a user make a better decision, not only what a system can technically expose.
+- **Constraint-first design** — treat budgets, permissions, platform limits, processing caps, missing data, and operational risk as design inputs.
+- **Business-to-technical translation** — move from operational meaning to schemas, queries, APIs, automation, validation, and interfaces without losing the business context.
 
 ## Selected work
 
-### Intrader — Market Analysis Assistant
-A public Python project for local, read-only NIFTY market analysis. It includes broker market-data connectivity, WebSocket feed health, historical data storage, contract resolution, and safe credential handling.
+### Chuck
+A private internal workflow and data system that evolved from automation into a broader exercise in defining business truth. The work spans canonical state, stable identity, historical reconciliation, source authority, precedence, deduplication, targeted database updates, bounded processing, scale constraints, and health gates.
+
+The public portfolio intentionally generalizes the implementation because it contains internal company logic and operational data.
+
+### PYXS
+A private manufacturing research-intelligence platform designed to move from company identity through facilities, equipment, capabilities, applications, market context, buying signals, timing, and relevant personas.
+
+A core principle is that unknown facts remain unknown until evidence supports them. The architecture preserves facts separately from inference so later reasoning can stay auditable.
+
+### Company / GTM Research Methodology
+A structured research approach that moves beyond “find companies in this industry.” It evaluates capability fit, make-vs-buy implications, industry and sub-industry context, parts/commodities, evidence quality, exclusions, prior outcomes, sourcing changes, market signals, timing, and relevant personas.
+
+The central question is not only *who fits?* but *why should demand plausibly exist, why might it exist now, and what evidence would prove or disprove that hypothesis?*
+
+### Intrader — Side Project
+A personal market-analysis experiment used to explore market-data ingestion, experimental methodology, interface design, no-lookahead validation, and risk-aware analysis. It is a side learning project, not a core professional track.
 
 Repository: [KaranBarua01/Intrader](https://github.com/KaranBarua01/Intrader)
 
-### Manufacturing GTM Intelligence
-A private research-intelligence platform for structured supplier, facility, equipment, and manufacturing context. Built around API-first services, Cloudflare Workers, and D1-backed data models.
-
-### GTM Operations Automation
-An internal/private automation system for Slack-driven workflows, data cleaning, deduplication, workflow state, QA gates, notifications, and operational data processing. Implementation details are intentionally not published.
-
-## Working stack
+## Tools used to execute ideas
 
 - Python
 - SQL / SQLite / Cloudflare D1
 - JavaScript / Cloudflare Workers
-- REST APIs and WebSockets
+- REST APIs / WebSockets
 - Git / GitHub
 - Slack workflow integrations
 - Excel / CSV data pipelines
 - Data cleaning, deduplication, validation, and QA
 - SOP and process design
-- GTM / Revenue Operations workflows
-- Research intelligence systems
-
-## Problem-solving capabilities
-
-Systems thinking · Problem decomposition · Root-cause analysis · Constraint mapping · Data-flow reasoning · Failure-mode analysis · Process redesign · Operational debugging · Pattern recognition · Incremental system design
 
 ## Portfolio site
 
-This repository contains a static portfolio and a print-friendly resume.
+This repository contains a static portfolio and a print-friendly CV:
 
-- `index.html` — portfolio
-- `resume.html` — CV / resume
+- `index.html` — evidence-led portfolio and case studies
+- `resume.html` — print-friendly CV
 - `styles.css` — shared design system
 - `.github/workflows/pages.yml` — GitHub Pages deployment
 
-After GitHub Pages is enabled with **GitHub Actions** as the source, the site will deploy from this repository.
+The site intentionally remains static and framework-free so the content stays easy to maintain and publish.
 
 ---
 
-This public portfolio intentionally omits confidential company data, credentials, customer information, and proprietary implementation details.
+This public portfolio intentionally omits confidential company data, credentials, customer information, internal identifiers, private employee details, and proprietary implementation logic.
